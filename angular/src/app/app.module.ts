@@ -17,6 +17,14 @@ import { APP_ROUTE_PROVIDER } from './route.provider';
 import { FeatureManagementModule } from '@abp/ng.feature-management';
 import { AbpOAuthModule } from '@abp/ng.oauth';
 
+/** config angular i18n **/
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+registerLocaleData(en);
+
+/** config ng-zorro-antd i18n **/
+import { NZ_I18N, en_US } from 'ng-zorro-antd/i18n';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -37,7 +45,9 @@ import { AbpOAuthModule } from '@abp/ng.oauth';
     FeatureManagementModule.forRoot(),
   ],
   declarations: [AppComponent],
-  providers: [APP_ROUTE_PROVIDER],
+  providers: [APP_ROUTE_PROVIDER,
+    { provide: NZ_I18N, useValue: en_US }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

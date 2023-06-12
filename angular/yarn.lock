@@ -6032,7 +6032,7 @@ ng-packagr@^15.0.1:
   optionalDependencies:
     esbuild "^0.17.0"
 
-ng-zorro-antd@^15.0.0:
+ng-zorro-antd@15.1.0, ng-zorro-antd@^15.0.0:
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/ng-zorro-antd/-/ng-zorro-antd-15.1.0.tgz#165b311eb6fb4ea9f65941260aaa49162a412d26"
   integrity sha512-HkZpaG4+fBGP8jhJ/rzyK9fm1G8pPzT0zCQ+3sae3Mwvop5diRUS8lSX/1SucEqjsYAGv+1S5ipl0HwKTLQlQw==

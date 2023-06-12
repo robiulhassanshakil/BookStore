@@ -104,7 +104,8 @@
                 "input": "node_modules/@swimlane/ngx-datatable/themes/material.css",
                 "inject": true,
                 "bundleName": "ngx-datatable-material"
-              },
+              }, 
+              "node_modules/ng-zorro-antd/ng-zorro-antd.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "src/styles.scss"
             ],
